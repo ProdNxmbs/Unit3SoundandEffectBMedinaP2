@@ -293,8 +293,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8, y: 4, z: -15}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.1, y: 4, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eb906bfc1eb832418046ddb3e36eb76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 151096, guid: 367149bd17c4d4d4e8868ec6a5cf8d45, type: 3}
+  obstaclePrefab: {fileID: 9218550689480291534, guid: 7aca206975d7c8f4bb1aa138a207a680, type: 3}
 --- !u!4 &695394003
 Transform:
   m_ObjectHideFlags: 0
@@ -410,6 +410,7 @@ MonoBehaviour:
   jumpForce: 10
   gravityModifier: 1
   isOnGround: 1
+  gameOver: 0
 --- !u!54 &775714040
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -634,7 +635,7 @@ GameObject:
   - component: {fileID: 2014335012}
   m_Layer: 9
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
